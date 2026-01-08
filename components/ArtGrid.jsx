@@ -1,13 +1,6 @@
-
 import React from 'react';
-import { Artwork } from '../types';
 
-interface ArtGridProps {
-  artworks: Artwork[];
-  onInquire: (artwork: Artwork) => void;
-}
-
-const ArtGrid: React.FC<ArtGridProps> = ({ artworks, onInquire }) => {
+const ArtGrid = ({ artworks, onInquire }) => {
   if (artworks.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-32 text-gray-400">
