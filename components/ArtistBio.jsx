@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-const ArtistBio: React.FC = () => {
+const ArtistBio = () => {
   return (
     <section className="artist-bio-container max-w-4xl mx-auto py-24 px-6 border-t border-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
