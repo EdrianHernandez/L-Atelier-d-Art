@@ -1,15 +1,7 @@
-
 import React, { useState } from 'react';
-import { Artwork, InquiryFormData } from '../types';
 
-interface InquiryModalProps {
-  artwork: Artwork | null;
-  isOpen: boolean;
-  onClose: () => void;
-}
-
-const InquiryModal: React.FC<InquiryModalProps> = ({ artwork, isOpen, onClose }) => {
-  const [formData, setFormData] = useState<InquiryFormData>({
+const InquiryModal = ({ artwork, isOpen, onClose }) => {
+  const [formData, setFormData] = useState({
     fullName: '',
     email: '',
     message: '',
@@ -20,7 +12,7 @@ const InquiryModal: React.FC<InquiryModalProps> = ({ artwork, isOpen, onClose })
 
   if (!isOpen || !artwork) return null;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     // Simulate API call
