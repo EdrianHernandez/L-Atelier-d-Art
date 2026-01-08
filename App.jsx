@@ -1,22 +1,20 @@
-
 import React, { useState, useMemo } from 'react';
 import { ARTWORKS } from './constants';
-import { Artwork, ExhibitionStatus } from './types';
 import ArtGrid from './components/ArtGrid';
 import ArtistBio from './components/ArtistBio';
 import ExhibitionTabs from './components/ExhibitionTabs';
 import InquiryModal from './components/InquiryModal';
 
-const App: React.FC = () => {
-  const [currentStatus, setCurrentStatus] = useState<ExhibitionStatus>('current');
-  const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
+const App = () => {
+  const [currentStatus, setCurrentStatus] = useState('current');
+  const [selectedArtwork, setSelectedArtwork] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const filteredArtworks = useMemo(() => {
     return ARTWORKS.filter((art) => art.status === currentStatus);
   }, [currentStatus]);
 
-  const handleInquire = (artwork: Artwork) => {
+  const handleInquire = (artwork) => {
     setSelectedArtwork(artwork);
     setIsModalOpen(true);
   };
