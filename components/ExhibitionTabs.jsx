@@ -1,14 +1,7 @@
-
 import React from 'react';
-import { ExhibitionStatus } from '../types';
 
-interface ExhibitionTabsProps {
-  currentStatus: ExhibitionStatus;
-  onStatusChange: (status: ExhibitionStatus) => void;
-}
-
-const ExhibitionTabs: React.FC<ExhibitionTabsProps> = ({ currentStatus, onStatusChange }) => {
-  const tabs: { label: string; value: ExhibitionStatus }[] = [
+const ExhibitionTabs = ({ currentStatus, onStatusChange }) => {
+  const tabs = [
     { label: 'Current', value: 'current' },
     { label: 'Upcoming', value: 'upcoming' },
     { label: 'Past', value: 'past' },
