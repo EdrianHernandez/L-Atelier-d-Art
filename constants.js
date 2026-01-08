@@ -1,7 +1,5 @@
 
-import { Artwork } from './types';
-
-export const ARTWORKS: Artwork[] = [
+export const ARTWORKS = [
   {
     id: '1',
     title: 'Ephemeral Echoes',
