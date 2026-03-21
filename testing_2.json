@@ -1,0 +1,72 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-1.png",
+        "file_path": "components/InquiryModal.jsx",
+        "text_anchor": "The modal element is stacking below the main content instead of appearing on top.",
+        "positive_node": "<div className=\"modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-2.png",
+        "file_path": "App.jsx",
+        "text_anchor": "The sticky header has no stacking context and is being overlapped by gallery items.",
+        "positive_node": "<header className=\"py-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8 sticky top-0 bg-white/95 backdrop-blur-md z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-3.png",
+        "file_path": "components/ExhibitionTabs.jsx",
+        "text_anchor": "The tab buttons are arranged vertically instead of being in a row.",
+        "positive_node": "<div className=\"flex flex-col gap-12\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-4.png",
+        "file_path": "components/ArtistBio.jsx",
+        "text_anchor": "The artist information and social links are all stacked in a single column instead of being side by side on larger screens.",
+        "positive_node": "<div className=\"col-span-1\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-5.png",
+        "file_path": "App.jsx",
+        "text_anchor": "The exhibition title has extremely small font size compared to the page layout.",
+        "positive_node": "<h2 className=\"serif text-sm md:text-sm lg:text-sm mb-4 leading-tight\">The Shape of Silence</h2>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-6.png",
+        "file_path": "components/ArtGrid.jsx",
+        "text_anchor": "The text color is too light and doesn't have enough contrast with the background.",
+        "positive_node": "<h3 className=\"serif text-2xl text-gray-300 group-hover:italic transition-all duration-500\">{artwork.title}</h3>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-7.png",
+        "file_path": "components/InquiryModal.jsx",
+        "text_anchor": "The form has no internal padding and the inputs are touching the modal border.",
+        "positive_node": "<div className=\"modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-8.png",
+        "file_path": "components/ArtistBio.jsx",
+        "text_anchor": "There's missing vertical spacing between the name and the social links section.",
+        "positive_node": "<div className=\"flex gap-6 mt-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-9.png",
+        "file_path": "components/ArtGrid.jsx",
+        "text_anchor": "The opacity is inverted - the button is visible initially then becomes transparent on hover interaction.",
+        "positive_node": "<div className=\"pt-4 flex items-center justify-between opacity-100 group-hover:opacity-0 transition-opacity duration-500\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "image_anchor": "L-Atelier-d-Art_bug-10.png",
+        "file_path": "components/ExhibitionTabs.jsx",
+        "text_anchor": "The underline that shows which tab is active is not visible.",
+        "positive_node": "<span className=\"absolute bottom-0 left-0 w-full h-px bg-black opacity-0 animate-[scale-x_0.3s_ease-out]\" />"
+    }
+]
