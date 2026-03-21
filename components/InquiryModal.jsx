@@ -28,8 +28,8 @@ const InquiryModal = ({ artwork, isOpen, onClose }) => {
   };
 
   return (
-    <div className="modal-overlay fixed inset-0 z-50 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4">
-      <div className="modal-container bg-white border border-gray-100 w-full max-w-xl p-8 md:p-12 relative shadow-2xl animate-in fade-in zoom-in duration-300">
+    <div className="modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4">
+      <div className="modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300">
         <button 
           onClick={onClose}
           className="absolute top-6 right-6 text-gray-400 hover:text-black transition-colors"

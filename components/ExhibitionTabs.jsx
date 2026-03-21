@@ -9,7 +9,7 @@ const ExhibitionTabs = ({ currentStatus, onStatusChange }) => {
 
   return (
     <div className="exhibition-tabs-container mb-16 flex justify-center border-b border-gray-100">
-      <div className="flex gap-12">
+      <div className="flex flex-col gap-12">
         {tabs.map((tab) => (
           <button
             key={tab.value}
@@ -24,7 +24,7 @@ const ExhibitionTabs = ({ currentStatus, onStatusChange }) => {
           >
             {tab.label}
             {currentStatus === tab.value && (
-              <span className="absolute bottom-0 left-0 w-full h-px bg-black animate-[scale-x_0.3s_ease-out]" />
+              <span className="absolute bottom-0 left-0 w-full h-px bg-black opacity-0 animate-[scale-x_0.3s_ease-out]" />
             )}
           </button>
         ))}

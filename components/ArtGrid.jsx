@@ -29,13 +29,13 @@ const ArtGrid = ({ artworks, onInquire }) => {
             
             <div className="mt-6 space-y-2">
               <div className="flex justify-between items-baseline">
-                <h3 className="serif text-2xl group-hover:italic transition-all duration-500">{artwork.title}</h3>
+                <h3 className="serif text-2xl text-gray-300 group-hover:italic transition-all duration-500">{artwork.title}</h3>
                 <span className="text-[10px] tracking-widest text-gray-400 uppercase">{artwork.year}</span>
               </div>
               <p className="text-xs tracking-widest text-gray-500 uppercase">{artwork.artist}</p>
               <p className="text-[10px] text-gray-400 italic font-light">{artwork.dimensions}</p>
               
-              <div className="pt-4 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="pt-4 flex items-center justify-between opacity-100 group-hover:opacity-0 transition-opacity duration-500">
                 <span className="text-sm font-medium tracking-tight text-gray-900">{artwork.price}</span>
                 <button 
                   onClick={() => onInquire(artwork)}

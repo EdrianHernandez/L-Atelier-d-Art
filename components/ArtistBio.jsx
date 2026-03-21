@@ -4,10 +4,10 @@ const ArtistBio = () => {
   return (
     <section className="artist-bio-container max-w-4xl mx-auto py-24 px-6 border-t border-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-        <div className="md:col-span-5">
+        <div className="col-span-1">
           <span className="text-[10px] tracking-[0.4em] uppercase text-gray-400 block mb-6">Featured Artist</span>
           <h2 className="serif text-5xl mb-6">Elena Vance</h2>
-          <div className="flex gap-6 mt-8">
+          <div className="flex gap-6 mt-0">
             <a href="#" className="text-gray-400 hover:text-black transition-colors text-xs tracking-widest">INSTAGRAM</a>
             <a href="#" className="text-gray-400 hover:text-black transition-colors text-xs tracking-widest">TWITTER</a>
             <a href="#" className="text-gray-400 hover:text-black transition-colors text-xs tracking-widest">BEHANCE</a>
