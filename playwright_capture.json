@@ -9,7 +9,9 @@
             "I cannot submit my inquiry because the modal is blocked by elements behind it."
         ],
         "positive_node": "<div className=\"modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4\">",
-        "playwright_selector": "div.modal-overlay"
+        "playwright_selector": "div.modal-overlay",
+        "requires_interaction": true,
+        "pre_action": "click the first .gallery-item button"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
@@ -81,7 +83,9 @@
             "It's difficult to interact with the form fields because there's no space around them."
         ],
         "positive_node": "<div className=\"modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300\">",
-        "playwright_selector": ".modal-container"
+        "playwright_selector": ".modal-container",
+        "requires_interaction": true,
+        "pre_action": "click the first .gallery-item button"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
