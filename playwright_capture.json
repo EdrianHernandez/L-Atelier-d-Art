@@ -1,18 +1,17 @@
 [
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
-        "file_path": "components/InquiryModal.jsx",
-        "image_anchor": "L-Atelier-d-Art_bug-1.png",
-        "text_anchors": [
-            "The popup window is hidden behind the page content and I can't interact with it.",
-            "The modal element is stacking below the main content instead of appearing on top.",
-            "I cannot submit my inquiry because the modal is blocked by elements behind it."
-        ],
-        "positive_node": "<div className=\"modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4\">",
-        "playwright_selector": "div.modal-overlay",
-        "requires_interaction": true,
-        "pre_action": "click the first .gallery-item button"
-    },
+    "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+    "file_path": "components/InquiryModal.jsx",
+    "image_anchor": "L-Atelier-d-Art_bug-1.png",
+    "text_anchors": [
+        "The popup window is hidden behind the page content and I can't interact with it.",
+        "The modal element is stacking below the main content instead of appearing on top.",
+        "I cannot submit my inquiry because the modal is blocked by elements behind it."
+    ],
+    "positive_node": "<div className=\"modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4\">",
+    "playwright_selector": "div.modal-overlay",
+    "action_selector": ".gallery-item button"
+},
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
         "file_path": "App.jsx",
@@ -74,19 +73,18 @@
         "playwright_selector": ".gallery-item h3.text-gray-300"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
-        "file_path": "components/InquiryModal.jsx",
-        "image_anchor": "L-Atelier-d-Art_bug-7.png",
-        "text_anchors": [
-            "The form fields are crammed against the edges of the popup window.",
-            "The form has no internal padding and the inputs are touching the modal border.",
-            "It's difficult to interact with the form fields because there's no space around them."
-        ],
-        "positive_node": "<div className=\"modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300\">",
-        "playwright_selector": ".modal-container",
-        "requires_interaction": true,
-        "pre_action": "click the first .gallery-item button"
-    },
+    "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+    "file_path": "components/InquiryModal.jsx",
+    "image_anchor": "L-Atelier-d-Art_bug-7.png",
+    "text_anchors": [
+        "The form fields are crammed against the edges of the popup window.",
+        "The form has no internal padding and the inputs are touching the modal border.",
+        "It's difficult to interact with the form fields because there's no space around them."
+    ],
+    "positive_node": "<div className=\"modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300\">",
+    "playwright_selector": ".modal-container",
+    "action_selector": ".gallery-item button"
+},
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
         "file_path": "components/ArtistBio.jsx",
