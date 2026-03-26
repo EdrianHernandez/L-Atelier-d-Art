@@ -1,69 +1,69 @@
 [
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-1.png",
         "file_path": "components/InquiryModal.jsx",
         "text_anchor": "I cannot submit my inquiry because the modal is blocked by elements behind it.",
         "positive_node": "<div className=\"modal-overlay fixed inset-0 z-0 flex items-center justify-center bg-white/80 backdrop-blur-sm px-4\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-2.png",
         "file_path": "App.jsx",
         "text_anchor": "Navigation and branding become hidden when scrolling through the art gallery.",
         "positive_node": "<header className=\"py-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8 sticky top-0 bg-white/95 backdrop-blur-md z-0\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-3.png",
         "file_path": "components/ExhibitionTabs.jsx",
         "text_anchor": "Navigation between Current, Upcoming and Past tabs is confusing because they are stacked vertically.",
         "positive_node": "<div className=\"flex flex-col gap-12\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-4.png",
         "file_path": "components/ArtistBio.jsx",
         "text_anchor": "The layout is not taking full advantage of space and feels cramped.",
         "positive_node": "<div className=\"col-span-1\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-5.png",
         "file_path": "App.jsx",
         "text_anchor": "Visitors cannot easily see the exhibition name because the text is tiny.",
         "positive_node": "<h2 className=\"serif text-sm md:text-sm lg:text-sm mb-4 leading-tight\">The Shape of Silence</h2>"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-6.png",
         "file_path": "components/ArtGrid.jsx",
         "text_anchor": "I can hardly read the names of the artworks displayed in the gallery.",
         "positive_node": "<h3 className=\"serif text-2xl text-gray-300 group-hover:italic transition-all duration-500\">{artwork.title}</h3>"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-7.png",
         "file_path": "components/InquiryModal.jsx",
         "text_anchor": "It's difficult to interact with the form fields because there's no space around them.",
         "positive_node": "<div className=\"modal-container bg-white border border-gray-100 w-full max-w-xl p-0 md:p-0 relative shadow-2xl animate-in fade-in zoom-in duration-300\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-8.png",
         "file_path": "components/ArtistBio.jsx",
         "text_anchor": "The layout feels cramped and the social media section runs together with the name.",
         "positive_node": "<div className=\"flex gap-6 mt-0\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-9.png",
         "file_path": "components/ArtGrid.jsx",
         "text_anchor": "I cannot click the Inquire button when I want to because it fades away.",
         "positive_node": "<div className=\"pt-4 flex items-center justify-between opacity-100 group-hover:opacity-0 transition-opacity duration-500\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art.git",
+        "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-10.png",
         "file_path": "components/ExhibitionTabs.jsx",
         "text_anchor": "I don't know which exhibition category I'm currently viewing because the indicator is missing.",
