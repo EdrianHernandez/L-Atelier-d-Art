@@ -32,14 +32,14 @@
         "image_anchor": "L-Atelier-d-Art_bug-5.png",
         "file_path": "App.jsx",
         "text_anchor": "Visitors cannot easily see the exhibition name because the text is tiny.",
-        "positive_node": "<h2 className=\"serif text-sm md:text-sm lg:text-sm mb-4 leading-tight\">The Shape of Silence</h2>"
+        "positive_node": "<h2 className=\"serif text-sm md:text-sm lg:text-sm mb-4 leading-tight\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
         "image_anchor": "L-Atelier-d-Art_bug-6.png",
         "file_path": "components/ArtGrid.jsx",
         "text_anchor": "I can hardly read the names of the artworks displayed in the gallery.",
-        "positive_node": "<h3 className=\"serif text-2xl text-gray-300 group-hover:italic transition-all duration-500\">{artwork.title}</h3>"
+        "positive_node": "<h3 className=\"serif text-2xl text-gray-300 group-hover:italic transition-all duration-500\">"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/L-Atelier-d-Art",
